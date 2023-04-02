@@ -611,7 +611,6 @@ input {
 .modal-label {
   display: block;
   margin-bottom: 8px;
-  /* position: relative; */
 }
 .modal-form-label {
   display: block;
@@ -670,6 +669,13 @@ input {
 .modal-form-input:not(:placeholder-shown) + .modal-form-icon {
   fill: var(--color-btn-text);
 }
+.modal-check-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-customers-icon);
+}
+
 .check {
   display: flex;
   gap: 8px;
